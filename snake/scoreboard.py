@@ -26,4 +26,3 @@ class ScoreBoard(Turtle):
         self.clear()
         self.hideturtle()
         self.update_scoreboard()
-        

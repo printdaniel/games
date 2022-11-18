@@ -1,5 +1,7 @@
 import random
 from os import system
+
+#Modules
 from art import *
 from game_data import *
 
@@ -9,7 +11,6 @@ def printer(p,s):
     print(vs)
     print(f"{s['name']}, {s['description']} {s['country']}")
     print(f"\n{s['name']} tiene más o menos followers que {p['name']}")
-
 
 
 def play_game():
@@ -48,4 +49,3 @@ if __name__ == '__main__':
     print(logo)
     if input("Listo para jugar (y/n): ") == "y":
             play_game()
-
